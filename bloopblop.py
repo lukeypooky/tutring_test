@@ -35,10 +35,3 @@ class NkDataSet(Dataset):
 
         return self.data_len
 
-path = '../test.csv'
-
-test = NkDataSet(path)
-
-for i,data in enumerate(test):
-
-    print(data)
